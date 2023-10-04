@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+img.logo {
+    width: 220px;
+    height: 60px;
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.logo {
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transition: translateX(40px);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 1);
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    color: white;
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.nav-links li a:hover {
+    color: red;
+
+
+}
+
+.btn-login {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(39, 195, 195);
+    border-style: none;
+    color: white;
+    margin: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    color: rgb(215, 140, 121);
+    background-color: rgb(214, 227, 153);
+}
+
+nav {
+    margin-top: 0px;
+}
+
+.nav-links li a {
+    color: white;
+}
+
+.Big {
+
+    font-size: 45px;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    padding-right: 150px;
+}
+
+.small {
+    font-size: 15px;
+    color: rgb(161, 149, 149);
+    font-family: 'Mooli', sans-serif;
+    margin-top: 8px;
+
+}
+
+.main-image {
+    height: 350px;
+    width: 480px;
+    transition: transform 1s ease;
+}
+
+.main-image:hover {
+    transform: translateY(-20px, 20px);
+}
+
+.main-image {
+    animation: up-down 7s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-15px);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    75% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+.main {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.822);
+    padding-bottom: 15px;
+}
+
+.Get {
+    background-color: rgb(39, 195, 195);
+    border-style: none;
+    color: white;
+    border-radius: 15px;
+    width: 145px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Get:hover {
+    background-color: burlywood;
+}
+
+
+
+.our {
+    width: 100%;
+    font-size: 20px;
+    color: #37517e;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Mooli', sans-serif;
+
+
+}
+
+.client-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+
+
+
+}
+
+.pic {
+    padding-right: 60px;
+    padding-left: 5px;
+    padding-top: 30px;
+    height: 7%;
+    width: 7%;
+    padding-bottom: 10px;
+    transition: transform 1s ease;
+    filter: grayscale(100%);
+}
+
+.pic:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.bca {
+
+    background-color: #aeb7c0;
+    padding-bottom: 10px;
+
+
+}
+
+.about {
+    height: 80%;
+    width: 40%;
+
+
+
+}
+
+
+.h2 {
+    font-family: 'Mooli', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 35px;
+    color: rgb(30, 30, 218);
+}
+
+.hello {
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-family: 'Mooli', sans-serif;
+
+}
+
+.paragraph {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraph p {
+    width: 400px;
+}
+
+.image-pillar {
+    width: 450px;
+    height: 350px;
+    margin-right: 50px;
+    padding-right: 50px;
+    transition: transform 1s ease;
+}
+
+.image-pillar {
+    animation: right-left 7s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes right-left {
+    0% {
+        transform: translatex(0);
+    }
+
+    25% {
+        transform: translatex(-15px);
+    }
+
+    50% {
+        transform: translatex(15px);
+    }
+
+    75% {
+        transform: translatex(-15px);
+    }
+
+    100% {
+        transform: translatex(15px);
+    }
+}
+
+
+.pillars {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke
+}
+
+.boxx {
+    background-color: rgb(213, 175, 175);
+    width: 300px;
+    margin-top: 20px;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.boxx:hover {
+    background-color: rgb(161, 149, 182);
+    color: rgb(242, 236, 228);
+    transform: scale(1.1);
+}
+
+
+.our-pillar {
+    padding-left: 30px;
+}
+
+.batta2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.services2 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(68, 5, 5);
+
+}
+
+.services {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.boxx2 {
+    background-color: #eae2e2;
+    width: 290px;
+    height: 200px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: transform 0.7s;
+    cursor: pointer;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.boxx2:hover {
+    transform: translateY(-10px);
+    background-color: rgb(219, 205, 199);
+}
+
+.we {
+    background-color: whitesmoke;
+    padding-bottom: 60px;
+    padding-top: 30px;
+
+}
+
+.use {
+    text-align: center;
+    color: rgb(72, 69, 69);
+    padding-bottom: 50px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        color: rgb(5, 7, 44);
+    }
+
+    to {
+        color: rgb(231, 26, 238);
+    }
+}
+
+.photo {
+
+    height: 70px;
+    width: 60px;
+    padding-right: 20px;
+    margin-left: 100px;
+    transition: transform 1s ease;
+    filter: grayscale(50%);
+
+
+}
+
+.photo:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.timg {
+    margin-left: 120px;
+    padding-left: 40px;
+}
+
+.ph {
+    height: 40px;
+    width: 70px;
+    margin-left: 120px;
+    transition: transform 1s;
+    filter: grayscale(100%);
+}
+
+.ph:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
+
+.icon {
+    padding-bottom: 20px;
+    margin-top: 30px;
+
+}
+
+
+ 
+ 
+.contactus{
+   padding-top: 50px;
+    padding-bottom: 80px;
+     text-align: center;
+     font-size: 40px;
+     font-weight: bolder;
+     color: #007aff;
+      
+}
+.contact{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+   border-style: solid;
+   border-color: #2406e8;
+  
+    
+   
+}
+.mapp{
+     margin-left: 60px;
+
+}
+.map{
+    margin-left: 200px;
+}
+.h2{
+    font-size: 30px;
+    font-weight:bolder;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+.h2:hover{
+    transform: scale(1.1);
+}
+.cont{
+    padding-bottom: 150px;
+}
+ .p{
+    margin-left: 100px;
+ }
+ .icons{
+   margin-right: 50px;
+ }
+
+ .last{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+   
+ }
+
+ 
+
+ .one{
+padding-bottom: 50px;
+ }
+ .two{
+    font-size: x-large;
+    font-weight: bolder;
+    color: #2406e8;
+ }
+ .headd{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #12075b;
+ }
+ .lk{
+    color: black;
+ }
+.lk:hover{
+    color: chocolate;
+}
+
+ .fourhead{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #12075b;
+    padding-bottom: 10px;
+ }
+ .network{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #12075b;padding-bottom: 10px;
+   
+ }
+ .four{
+    padding-bottom: 50px;
+ }
+ .iconss{
+    padding-right: 20px;
+ }
+  #cls{
+color: #2406e8;
+padding-left: 10px;
+transition: transform 0.3s;
+
+  }
+  #cls:hover{
+color: #d96b38;
+transform: scale(1.1);
+  }
+ 
+ .foot {
+
+    bottom: 0;
+    height: 40px;
+    background-color: #37517e;
+    color: white;
+    padding-top: 25px;
+    padding-left: 95px;
+    font-size: 20px;
+}
